@@ -8,9 +8,7 @@ def shipping_manifest
 end
 
 def retrieval
-  shipping_manifest
-  puts 
-
+  puts shipping_manifest["oil paintings"]
 end
 
 def adding
